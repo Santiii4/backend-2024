@@ -42,6 +42,7 @@ export default function Header () {
                     </div>
                 </div>
                 <div class="Imagenes">
+                    <img src={camion4} alt="" class="ImgCamion"/>
                     <img src="" alt="" />
                 </div>
             </div>
