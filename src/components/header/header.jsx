@@ -4,6 +4,7 @@ import twt from "../../multimedia/twt.jpg";
 import ig from "../../multimedia/ig.png";
 import facebook from "../../multimedia/facebook.png";
 import camion4 from "../../multimedia/camion4.jpg";
+import {Link} from 'react-router-dom'
 
 export default function Header () {
     return(
@@ -11,18 +12,18 @@ export default function Header () {
             <body class="body"> 
                 <section class="sectionMain">
                     <div class="divLogoTitulo">     
-                        <a href="../RIGA-main/INDEX.HTML"><img class="logo" src={riga}alt="R.I.G.A" /></a>
+                        <Link to= '/home'><img class="logo" src={riga}alt="R.I.G.A" /></Link>
                     </div>
                     <div>
                         <ul class="BarraNav">
                             <li class="liNav">
-                                <a href="./PAGES/shop.html" class="linkInfo">SHOP</a>
+                                <Link to= '/shop' class="linkInfo">SHOP</Link>
                             </li>
                             <li class="liNav">
-                                <a href="./PAGES/INFO.html" class="linkInfo">+INFO</a>
+                                <Link to = '/+INFO' class="linkInfo">+INFO</Link>
                             </li>
                             <li class="liNav">
-                                <a href="./PAGES/REGISTER.html" class="linkInfo">REGISTER</a>
+                                <Link to = '/REGISTER' class="linkInfo">REGISTER</Link>
                             </li>
                         </ul>
                     </div>

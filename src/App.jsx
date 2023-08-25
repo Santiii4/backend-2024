@@ -1,21 +1,36 @@
 import './App.css';
 import Header from './components/header/header'
 import Footer from './components/footer/footer'
-import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter />
-        <Routes />
-          <Route path = '/home' elements= {<>
+      <Router>
+        <Routes>
+          <Route path = '/home' element= {<>
             <Header />
             <Footer />
             </>
           } />
-      <Header />
-      <Footer />
+          <Route path = '/shop' element= {<>
+            <Header />
+            <Footer />
+            </>
+          } />
+          <Route path = '/+INFO' element= {<>
+            <Header />
+            <Footer />
+            </>
+          } />
+          <Route path = '/REGISTER' element= {<>
+            <Header />
+            <Footer />
+            </>
+          } />
+        </Routes>
+      </Router>
     </div>
   );
 }
