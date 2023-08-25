@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './components/header/header'
 import Footer from './components/footer/footer'
+import Body from './components/body/body'
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
 
@@ -12,6 +13,7 @@ function App() {
           <Route path = '/home' element= {<>
             <Header />
             <Footer />
+            <Body />
             </>
           } />
           <Route path = '/shop' element= {<>
