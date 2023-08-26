@@ -1,5 +1,5 @@
 footer {
-	background-color: rgb(57, 81, 68);
+	background-color: #435334;
 	padding: 20px;
 	text-align: center;
 	position:fixed;
@@ -7,8 +7,8 @@ footer {
 	width: 100%;
 }
 
-footer p {
-	margin: 10px 0;
-	font-size: 14px;
-	color: #F0EBCE;
+.Contact {
+	max-width: 70px;
+    margin: -1;
+	align-content: end;
 }

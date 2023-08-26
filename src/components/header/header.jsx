@@ -19,7 +19,7 @@ export default function Header () {
                                 <Link to = '/+INFO' class="linkInfo">+INFO</Link>
                             </li>
                             <li class="liNav">
-                                <Link to = '/REGISTER' class="linkInfo">REGISTER</Link>
+                                <Link to = '/Login' class="linkInfo">Login</Link>
                             </li>
                         </ul>
                     </div>

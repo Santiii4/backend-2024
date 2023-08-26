@@ -8,8 +8,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background:rgb(57, 81, 68);
-    color: #F0EBCE;
+    background: #435334;
+    color: #FAF1E4;
     font-family: 'Roboto Slab', serif;
     position: absolute;
     width: 100%;
@@ -35,12 +35,12 @@
 }
 .liNav{
     margin: 2rem;
-    background:rgb(57, 81, 68);
+    background:#435334;
 }
 
 .linkInfo {
     text-decoration: none;
-    color: #F0EBCE;
+    color: #FAF1E4;
 }
 
 .logo {
