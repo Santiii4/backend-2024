@@ -3,12 +3,16 @@ footer {
 	padding: 20px;
 	text-align: center;
 	position:fixed;
+	display: flex;
+	justify-content: end;
 	bottom: 0;
 	width: 100%;
 }
 
+
+
 .Contact {
 	max-width: 70px;
     margin: -1;
-	align-content: end;
+	align-self: flex-end;
 }

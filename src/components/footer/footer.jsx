@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 export default function Footer () {
     return(
         <footer>
-        <p>Contacto: Riga@gmail.com</p>
+        <p class=''>Contacto: Riga@gmail.com</p>
         <Link to= '/Contact Us'><img class="Contact" src={Contact}alt="Contact" /></Link>
     </footer>
     )
