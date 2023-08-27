@@ -11,7 +11,6 @@ export default function Body () {
                     <h2>RIGA</h2>
                     <h1>Transporte Internacional</h1>
                     <div class="CONTACTUS">
-                        <button class="CONTACTUS_BUTTON">CONTACT US</button>
                         <div class="divLogoRedes">
                             <img class="TWT" src={twt} alt="TWT"/>
                             <img class="IG" src={ig} alt="IG"/>

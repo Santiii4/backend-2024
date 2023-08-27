@@ -21,7 +21,7 @@ export default function LogIn () {
                         <div class="row button">
                             <input type="submit" value="Login"/>
                         </div>
-                        <div class="signup-link">Not a member? <a href="#">Signup now</a></div>
+                        <div class="signup-link">Not a member? <Link to= '#'>Signup now</Link></div>
                     </form>
                 </div>
             </div>
