@@ -11,7 +11,7 @@ export default function LogIn () {
                     <form action="#">
                         <div class="row">
                             <i class="fas fa-user"></i>
-                            <input type="text" placeholder="Email" required/>
+                            <input type="email" placeholder="Email" required/>
                         </div>
                         <div class="row">
                             <i class="fas fa-lock"></i>

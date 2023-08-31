@@ -3,7 +3,9 @@ import Header from './components/header/header'
 import Footer from './components/footer/footer'
 import Body from './components/body/body'
 import LogIn from './components/LogIn/LogIn'
+import Shop from './components/shop/shop'
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+
 
 
 function App() {
@@ -20,6 +22,7 @@ function App() {
           <Route path = '/shop' element= {<>
             <Header />
             <Footer />
+            <Shop />
             </>
           } />
           <Route path = '/+INFO' element= {<>
