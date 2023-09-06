@@ -16,7 +16,7 @@ export default function Header () {
                                 <Link to= '/shop' class="linkInfo">SHOP</Link>
                             </li>
                             <li class="liNav">
-                                <Link to = '/+INFO' class="linkInfo">+INFO</Link>
+                                <Link to = '/Register' class="linkInfo">Register</Link>
                             </li>
                             <li class="liNav">
                                 <Link to = '/Login' class="linkInfo">Login</Link>

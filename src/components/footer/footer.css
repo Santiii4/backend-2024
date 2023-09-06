@@ -4,10 +4,11 @@ footer {
 	text-align: center;
 	position:fixed;
 	display: flex;
-	justify-content: end;
+	justify-content: center;
 	bottom: 0;
 	width: 100%;
 }
+
 /* .Contact {
 	max-width: 70px;
     margin: -1;

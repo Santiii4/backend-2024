@@ -4,6 +4,7 @@ import Footer from './components/footer/footer'
 import Body from './components/body/body'
 import LogIn from './components/LogIn/LogIn'
 import Shop from './components/shop/shop'
+import Register from './components/Register/Register'
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
 
@@ -34,6 +35,12 @@ function App() {
             <Header />
             <Footer />
             <LogIn />
+            </>
+          } />
+          <Route path = '/Register' element= {<>
+            <Header />
+            <Footer />
+            <Register />
             </>
           } />
         </Routes>
