@@ -1,0 +1,22 @@
+[
+    {
+      "tipo": "Servicio de transporte completo",
+      "descripcion": "Este servicio implica el transporte de carga desde el origen hasta el destino final. El transportista es responsable de la carga y descarga, así como del almacenamiento temporal si es necesario.",
+      "precio": "$1,631.70 por tonelada para recorridos de hasta 100 km, $4,810 por tonelada para recorridos de hasta 500 km, y $6,481.80 por tonelada para recorridos de hasta 1,000 km."
+    },
+    {
+      "tipo": "Servicio de transporte parcial",
+      "descripcion": "Este servicio implica el transporte de carga desde el origen hasta un punto intermedio o desde un punto intermedio hasta el destino final. El transportista es responsable del transporte y la descarga en el punto intermedio.",
+      "precio": "No disponible"
+    },
+    {
+      "tipo": "Servicio de transporte de carga consolidada",
+      "descripcion": "Este servicio implica la consolidación de varias cargas pequeñas en un solo envío. El transportista es responsable del transporte y la descarga en el destino final.",
+      "precio": "$1,631.70 por tonelada para recorridos de hasta 100 km, $4,810 por tonelada para recorridos de hasta 500 km, y $6,481.80 por tonelada para recorridos de hasta 1,000 km."
+    },
+    {
+      "tipo": "Servicio de transporte de carga fraccionada",
+      "descripcion": "Este servicio implica la división de una carga grande en varias cargas más pequeñas. El transportista es responsable del transporte y la descarga en el destino final.",
+      "precio": "$1,631.70 por tonelada para recorridos de hasta 100 km, $4,810 por tonelada para recorridos de hasta 500 km, y $6,481.80 por tonelada para recorridos de hasta 1,000 km."
+    }
+]
