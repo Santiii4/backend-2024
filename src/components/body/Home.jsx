@@ -1,10 +1,10 @@
-import "./body.css"
+import "./Home.css"
 import twt from "../../multimedia/twt.jpg";
 import ig from "../../multimedia/ig.png";
 import facebook from "../../multimedia/facebook.png";
 import camion4 from "../../multimedia/camion4.jpg";
 
-export default function Body () {
+export default function body () {
     return(
             <div class="Principal">
                 <div class="TituloPrinc">

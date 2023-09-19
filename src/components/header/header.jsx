@@ -1,6 +1,7 @@
 import "./header.css"
 import riga from "../../multimedia/riga.png";
 import {Link} from 'react-router-dom'
+import Carrito from "../../multimedia/carro-de-la-compra.png";
 
 export default function Header () {
     return(
@@ -13,7 +14,7 @@ export default function Header () {
                     <div>
                         <ul class="BarraNav">
                             <li class="liNav">
-                                <Link to= '/shop' class="linkInfo">SHOP</Link>
+                                <Link to= '/Products' class="linkInfo">Products</Link>
                             </li>
                             <li class="liNav">
                                 <Link to = '/Register' class="linkInfo">Register</Link>
@@ -21,6 +22,9 @@ export default function Header () {
                             <li class="liNav">
                                 <Link to = '/Login' class="linkInfo">Login</Link>
                             </li>
+                            <div class="divLogoTitulo">     
+                                <Link to= '/Carrito'><img class="Carrito" src={Carrito}alt="Carrito" /></Link>
+                            </div>
                         </ul>
                     </div>
                 </section>

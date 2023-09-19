@@ -1,22 +1,30 @@
 [
     {
-      "tipo": "Servicio de transporte completo",
+      "name": "24 Pallets",
       "descripcion": "Este servicio implica el transporte de carga desde el origen hasta el destino final. El transportista es responsable de la carga y descarga, así como del almacenamiento temporal si es necesario.",
-      "precio": "$1,631.70 por tonelada para recorridos de hasta 100 km, $4,810 por tonelada para recorridos de hasta 500 km, y $6,481.80 por tonelada para recorridos de hasta 1,000 km."
+      "price": 1.851,
+      "img": "https://cdn-icons-png.flaticon.com/128/819/819489.png",
+      "quanty": 1
     },
     {
-      "tipo": "Servicio de transporte parcial",
+      "name": "12 Pallets",
       "descripcion": "Este servicio implica el transporte de carga desde el origen hasta un punto intermedio o desde un punto intermedio hasta el destino final. El transportista es responsable del transporte y la descarga en el punto intermedio.",
-      "precio": "No disponible"
+      "price": 1.631,
+      "img": "https://cdn-icons-png.flaticon.com/128/776/776588.png",
+      "quanty": 1
     },
     {
-      "tipo": "Servicio de transporte de carga consolidada",
+      "name": "Carga fraccionada",
       "descripcion": "Este servicio implica la consolidación de varias cargas pequeñas en un solo envío. El transportista es responsable del transporte y la descarga en el destino final.",
-      "precio": "$1,631.70 por tonelada para recorridos de hasta 100 km, $4,810 por tonelada para recorridos de hasta 500 km, y $6,481.80 por tonelada para recorridos de hasta 1,000 km."
+      "price": 1.331,
+      "img": "https://cdn-icons-png.flaticon.com/128/1371/1371651.png",
+      "quanty": 1
     },
     {
-      "tipo": "Servicio de transporte de carga fraccionada",
+      "name": "Carga Puerta a Puerta",
       "descripcion": "Este servicio implica la división de una carga grande en varias cargas más pequeñas. El transportista es responsable del transporte y la descarga en el destino final.",
-      "precio": "$1,631.70 por tonelada para recorridos de hasta 100 km, $4,810 por tonelada para recorridos de hasta 500 km, y $6,481.80 por tonelada para recorridos de hasta 1,000 km."
+      "price": 1.999,
+      "img": "https://cdn-icons-png.flaticon.com/128/2460/2460715.png",
+      "quanty": 1
     }
 ]

@@ -1,10 +1,11 @@
 import './App.css';
 import Header from './components/header/header'
 import Footer from './components/footer/footer'
-import Body from './components/body/body'
+import Home from './components/body/Home'
 import LogIn from './components/LogIn/LogIn'
-import Shop from './components/shop/shop'
+import Products from "../src//components/Products/Products"
 import Register from './components/Register/Register'
+import Carrito from './components/CartContent/CartContent'
 import {BrowserRouter as Router, Route, Routes, BrowserRouter} from 'react-router-dom';
 import DataProvider from './components/Context/DataContext';
 
@@ -15,16 +16,16 @@ function App() {
       <div className="App">
           <Router>
             <Routes>
-              <Route path = '/home' element= {<>
+              <Route path = '/' element= {<>
                 <Header />
                 <Footer />
-                <Body />
+                <Home />
                 </>
               } />
-              <Route path = '/shop' element= {<>
+              <Route path = '/Products' element= {<>
                 <Header />
                 <Footer />
-                <Shop />
+                <Products />
                 </>
               } />
               <Route path = '/+INFO' element= {<>
@@ -42,6 +43,18 @@ function App() {
                 <Header />
                 <Footer />
                 <Register />
+                </>
+              } />
+              <Route path = '/Products' element= {<>
+                <Header />
+                <Footer />
+                <Products />
+                </>
+              } />
+              <Route path = '/Carrito' element= {<>
+                <Header />
+                <Footer />
+                <Carrito />
                 </>
               } />
             </Routes>
